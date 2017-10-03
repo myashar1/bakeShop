@@ -1,7 +1,7 @@
 body {
     margin: 0;
     color: teal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 
@@ -9,30 +9,33 @@ body {
 
 header {
     text-align: center;
-    padding: 10px;
-    background-color: teal;
+    padding: 5px;
+    background-color: pink;
     color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Pacifico', cursive;
 }
 
 
 h1 {
     margin: 0;
+    font-size: 4em;
 }
 
 header a {
-    color: gold;
-    text-decoration: none;
+    color: teal;
+    font-family: 'Cabin', sans-serif;
+    /* text-decoration: none;--> */
 }
 
 .list a {
     color: teal;
-    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    /* text-decoration: none;--> */
 }
 
 
 /*********** LISTS ************/
-#todo-lists {
+#product-info {
     margin: 0 auto;
     width: 80%;
     padding-top: 10px;
@@ -43,6 +46,7 @@ header a {
     margin-bottom: 10px;
     background-color: #eeeeee;
     border: 1px solid #cccccc;
+    font-family: 'Cabin', sans-serif;
 }
 
 .list-title {
@@ -54,8 +58,7 @@ header a {
     padding: 10px;
     background-color: teal;
     color: white;
-    font-family: 'Roboto Slab', serif;
-    font-size: 20;
+    font-family: 'Cabin', sans-serif;
     border-radius: 10px;
 }
 
