@@ -1,45 +1,156 @@
 body {
     margin: 0;
-    color: teal;
-    font-family: 'Pacifico', cursive;
 }
-
 
 /*********** HEADER ************/
 
 header {
     text-align: center;
+    margin: 0;
     padding: 5px;
-    background-color: pink;
-    color: white;
-    font-family: 'Pacifico', cursive;
+    background: linear-gradient(to bottom right, #f5a1ba, #c4a2cc);
+    /*background-color: pink;*/
 }
 
-
-h1 {
+header h1 {
     margin: 0;
     font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    color: white;
 }
 
-header a {
-    color: teal;
-    font-family: 'Cabin', sans-serif;
-    /* text-decoration: none;--> */
+header h2 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Sacramento', cursive;
+    color: white;
 }
 
-.list a {
+
+nav {
+    margin: 0;
+    padding: 15px 15px;
+    text-align: center;
+    background-color: #eeeeee;
+    font-family: 'Cabin', sans-serif;
+}
+
+nav a {
     color: teal;
     font-family: 'Cabin', sans-serif;
-    /* text-decoration: none;--> */
+    font-size: .9em;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Cabin', sans-serif;
+    color: #787878;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: .9em;
+}
+
+
+#banner {
+    background: white url(bakeshop_interior.jpg) center no-repeat;
+    height: 300px;
+    padding-top: 10px;
+}
+
+
+.col {
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 275px;
+    display: inline-block;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.row {
+    clear:both;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+}
+
+.row2 {
+    clear:both;
+    margin-left: 16%;
+    margin-right: 0%;
+    text-align: right;
+}
+
+.col2 {
+    float: left;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 10%;
+    width: 300px;
+    display: inline-block;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.row a {
+    color: teal;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+.row p {
+    color: gray;
+    text-align: middle;
+    font-family: 'Cabin', sans-serif;
+}
+
+.row img {
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+
+.about {
+    text-align: left;
+    padding: 25px;
+    float: right;
+    margin: 2%;
+    width: 53%;
+}
+
+.about p {
+    text-align: left;
+}
+
+.about h3 {
+    text-align: left;
+    color: teal;
+}
+
+.about img {
+    float: left;
+    width: 30%;
+    padding: 20px
 }
 
 
 /*********** LISTS ************/
+
+
+/****
 #product-info {
     margin: 0 auto;
     width: 80%;
     padding-top: 10px;
 }
+
 
 .list {
     padding: 10px;
@@ -49,9 +160,11 @@ header a {
     font-family: 'Cabin', sans-serif;
 }
 
-.list-title {
-    margin-left: 20px;
+.list a {
+    color: teal;
+    font-family: 'Cabin', sans-serif;
 }
+****/
 
 .buttons {
     text-align: center;
@@ -59,10 +172,32 @@ header a {
     background-color: teal;
     color: white;
     font-family: 'Cabin', sans-serif;
+    font-size: .8em;
     border-radius: 10px;
+}
+
+.inputDetail {
+    padding: 10px;
+    width: 300px;
 }
 
 .input {
     padding: 10px;
+    width: 50px;
 }
+
+
+footer {
+    clear: both;
+    color: BLACK;
+    font-size: .8em;
+    font-family: 'Cabin', sans-serif;
+    padding: 40px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
 

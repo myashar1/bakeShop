@@ -1,46 +1,231 @@
-
-
 <!DOCTYPE html>
 <html>
 
 <head>
-    <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin|Pacifico" rel="stylesheet">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Pacifico|Sacramento" rel="stylesheet">
+        <title>Bun Bun Bake Shop</title>
 
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Bun Bun Bake Shop</title>
-     <!-- styles -->
-      <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- javascript -->
+        <script src="main.js" type="text/javascript"></script>
 </head>
 
 
-
 <body>
-
     <header>
         <h2>Welcome to</h2>
         <h1>Bun Bun Bake Shop!</h1>
-        <nav>
-            <a href="index.html">Home</a> -
-            <a href="product.html">Products</a>
-        </nav>
     </header>
 
+    <nav>
+        —<a href="index.html"><b>  HOME  </b></a>—
+        <a href="product.html"><b>  PRODUCTS  </b></a>—
+        <a href="contact.html"><b>  CONTACT  </b></a>—
+    </nav>
+    <br>
 
-        <div id="product-info">
-            <div class="list">
-                <h3 class="list-title">This is a new product</h3>
-                            <button class="buttons">Add to Cart</button>
-                                <br> <br>
-                            <input type="text" class="input"></input>
-                            <!--look at how I added the class here-->
-                            <button class="buttons">Submit Comments for Custom Order</button>
 
-            </div>
+    <div id="banner">
+    </div>
+    <br>
 
+
+
+    <br>
+
+    <div class="row">
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="apple_pecan.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">Maple Apple Pecan Bun</a>
+                </h3>
+                    <p> All the wonderful sweetness of apple pecan pie wrapped up into a single bun! Perfect for brunches & dessert.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
         </div>
 
+        <div class="col">
+                <a href="detail.html">
+                    <img src="bacon.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Bacon Bun</a>
+                </h3>
+                    <p> Buns wrapped with salty bacon. One of our more substantial rolls not to be missed for breakfast or lunch! </p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
 
+        <div class="col">
+                <a href="detail.html">
+                    <img src="walnut.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Walnut Bun</a>
+                </h3>
+                    <p> Rich, caramelized walnut buns for your pleasure. Filled with a caramelized swirl and topped with candied walnuts.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="glutenfree.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Gluten Free Bun</a>
+                </h3>
+                    <p> Gluten-free cinnamon buns for all to enjoy.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="original.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Original Cinnamon Bun</a>
+                </h3>
+                    <p> Bun Bun's original cinnamon bun! Cannot be missed and the only one of its kind.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="vegan.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Original Vegan Bun</a>
+                </h3>
+                    <p> Dairy and egg-free buns for our vegan friends. Taste as delicious as the original, ask us for our one-of-a-kind recipe! </p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="pumpkin.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Pumpkin Spice Bun</a>
+                </h3>
+                    <p> Get in the autumn spirit with pumpkin! Your Thanksgiving will not be complete without them.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="pecan.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Caramel Pecan Bun</a>
+                </h3>
+                    <p> Sweet and crunchy pecan buns filled with caramel swirl and topped with caramel and pecans.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="carrot.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Carrot Cake Bun</a>
+                </h3>
+                    <p> Rich carrot cake bun topped with cream cheese frosting, carrot shreds and coconut</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="buttermilk.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">Old-Fashion Buttermilk Bun</a>
+                </h3>
+                    <p> Buttermilk bisbuit buns are an old-time favorite  from grandma's unique recipe.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="strawberry.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Strawberry Rhubarb Bun</a>
+                </h3>
+                    <p>Strawberry buns are filled with fruit filling made from fresh strawberries. Topped with a cream cheese glaze.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="birthday.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Birthday Cake Bun</a>
+                </h3>
+                    <p>Birthday cake buns are perfect for your next birthday celebration! Made with birthday cake batter and decorated with rainbow sprinkles.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="lemon.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Lemon Lavender Bun</a>
+                </h3>
+                    <p>Switch it up from classic cinnamon with these Lemon Lavender Rolls. The sticky lemon filling will satisfy you for breakfast or dessert anytime.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="cranberry.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Cranberry Bun</a>
+                </h3>
+                    <p> Cranberry buns are perfect for breakfast brunches, Thanksgiving, Christmas, and falltime generally. Topped with a cream cheese glaze.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+        <div class="col">
+                <a href="detail.html">
+                    <img src="blackberry.jpg" style="width:250px;height:250px;">
+                </a>
+                <h3>
+                    <a href="detail.html">The Blackberry Bun</a>
+                </h3>
+                    <p> Delicious rolls made with fresh blackberries. Try our own specialty blackberry filling and topped with cream cheese glaze.</p>
+                <br>
+                <button class="buttons" onclick="addNewList()">Add to Cart</button>
+        </div>
+
+    </div>
+
+
+
+
+    <footer> Copyright 2017 Bun Bun Bake Shop <br>
+        Located at 1234 Carb Central Way in beautiful Pittsburgh, PA
+    </footer>
 
 </body>
 
